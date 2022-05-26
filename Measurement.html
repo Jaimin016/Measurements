@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement Form</title>
+    <link rel="stylesheet" href="measurement.css">
+</head>
+<body>
+    <div class="image">
+        <h1>Shirt Measurements</h1>
+
+        <form action="">
+            <fieldset>
+                <legend>Customer Details</legend>
+                <p>Name :</p>
+                <input type="text" name="name" id="name" placeholder="Full Name" required><br>
+                <p>Phone No. :</p>
+                <input type="number" name="phn" id="phn" placeholder="0123456789" required>
+            </fieldset><br><br><br>
+
+            <fieldset>
+                <legend>Measurements</legend>
+                <h4>In cm</h4>
+                <p>Collar :</p>
+                <input type="number" name="collar" id="collar" placeholder="00" required><br>
+                <p>Chest :</p>
+                <input type="number" name="chest" id="chest" placeholder="00" required><br>
+                <p>Waist :</p>
+                <input type="number" name="waist" id="waist" placeholder="00" required><br>
+                <p>Shoulder :</p>
+                <input type="number" name="shoulder" id="shoulder" placeholder="00" required><br>
+                <p>Sleeve :</p>
+                <input type="number" name="sleeve" id="sleeve" placeholder="00" required><br>
+                <p>Length :</p>
+                <input type="number" name="length" id="length" placeholder="00" required><br>
+            </fieldset><br><br>
+            
+            <input type="submit" value="Submit" class="button"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset" class="button">
+        </form>
+    </div>
+</body>
+</html>

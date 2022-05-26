@@ -1,0 +1,58 @@
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    margin: 0 auto;
+    max-width: 430px;
+}
+
+h1{
+    color: rgb(216, 81, 13);
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    width: 100px;
+    display: inline-block;
+}
+
+legend{
+    color: rgb(235, 246, 246);
+    font-weight: 700;
+    font-size: larger;
+    text-align: left;
+    background-color: rgb(241, 114, 167);
+    border-radius: 5px;
+}
+
+fieldset{
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.button{
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 98, 231);
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.button:hover{
+    color: blue;
+}
+
+input[type="text"],
+input[type="number"]{
+    border-radius: 8px;
+    padding: 3px;
+}
